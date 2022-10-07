@@ -37,11 +37,11 @@ public class storage implements Serializable{
 			System.out.println("Serialized data of the denominations are stored in storage.ser");
 		}catch(IOException i)
 		{
-			i.printStackTrace();
+			System.out.println(i);
 		}
 		catch(Exception e)
 		{
-			e.printStackTrace();
+			System.out.println(e);
 		}
 	}
 }
