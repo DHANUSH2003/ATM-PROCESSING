@@ -27,11 +27,11 @@ public class atm {
 		System.out.println("Cash storage data loaded..");
 	}catch(IOException i)
 	{
-		i.printStackTrace();
+		System.out.println(i);
 	}
 	catch(Exception e)
 	{
-		e.printStackTrace();
+		System.out.println(e);
 	}
 	while(true)
 	{
@@ -164,11 +164,11 @@ public class atm {
 		System.out.println("Cash storage data saved..\n");
 	}catch(IOException i)
 	{
-		i.printStackTrace();
+		System.out.println(i);
 	}
 	catch(Exception e)
 	{
-		e.printStackTrace();
+		System.out.println(e);
 	}
 	}
 	
