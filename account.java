@@ -18,7 +18,7 @@ public class createAccount {
 			System.out.println("Serialized data of the accounts are stored in acc_info.ser");
 			}catch(IOException i)
 			{
-				i.printStackTrace();
+				System.out.println(i);
 			}
 		}
 }
